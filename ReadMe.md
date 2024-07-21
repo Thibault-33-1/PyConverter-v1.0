@@ -1,26 +1,26 @@
+Install with default paquets software application.
+
+Or use those commands :
+
+su -
+
 Install python if you don't have it : 
 -----------------------------------
 
-sudo apt-get install python
+apt-get install python
 
 Then install Tkinter : 
 ---------------------
 
-sudo apt-get install python-tk
-
+apt-get install python-tk
 
 Finally start the application with thoses commands : 
 ---------------------------------------------------
 
-sudo chmod +x PyConverter.py
+chmod +x PyConverter.py
 
 ./PyConverter.py
 
-
+Vidéo tutorial : https://www.youtube.com/watch?v=wvZEtQRASqY
 
 Enjoy !
-
-
-![PyConverter](https://hebergeur-images.com/up/28869e9c0472ff9cc60e5762e11a2ab3.png)
-
-

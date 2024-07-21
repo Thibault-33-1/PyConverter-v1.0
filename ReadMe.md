@@ -1,4 +1,4 @@
-Install with default paquets software application.
+Install with default packages software application.
 
 Or use those commands :
 

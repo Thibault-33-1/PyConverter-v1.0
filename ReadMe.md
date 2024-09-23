@@ -1,18 +1,33 @@
-Install with default packages software application.
-
-Or use those commands :
-
-su -
-
 Install python if you don't have it : 
 -----------------------------------
 
-apt-get install python
+sudo apt update && sudo apt upgrade
 
-Then install Tkinter : 
----------------------
+sudo apt-get install python
 
-apt-get install python-tk
+Install Tkinter : 
+---------------
+
+sudo apt-get install python-tk
+
+# Install pip :
+--------------
+
+Download the script, from https://bootstrap.pypa.io/get-pip.py.
+
+Open a terminal/command prompt, cd to the folder containing the get-pip.py file and run:
+
+python get-pip.py
+
+# Install Pillow :
+-----------------
+
+pip install pillow
+
+# Install ffmpeg : 
+-----------------
+
+sudo apt install ffmpeg
 
 Finally start the application with thoses commands : 
 ---------------------------------------------------
